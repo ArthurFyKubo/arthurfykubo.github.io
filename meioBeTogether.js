@@ -11,16 +11,3 @@ beTogether.addEventListener('click', function() {
   });
 });
 /* MEIO BONECO ANDROID LINK FIM */
-
-/* MEIO BONECO ANDROID BOTAO */
-var beTogetherButtom = document.querySelector("#blueButtom");
-beTogetherButtom.addEventListener('click', function() {
-  window.dataLayer = window.dataLayer || [];
-  window.dataLayer.push({
-    'event': 'generic:event',
-    'eventCategory': 'android:be-together-not-the-same',
-    'eventAction': 'click:button',
-    'eventLabel': 'beTogetherButtom'
-  });
-});
-/* MEIO BONECO ANDROID BOTAO FIM*/
